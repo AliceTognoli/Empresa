@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Rubik';
+    font-size: 16px;
+    font-weight: 300;
+    background-color: #ffe5ec;
+}
+
+.card_vale{
+    border-radius: 10px;
+    background-color: #ffc2d1;
+    height: 250px;
+    width: 500px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.card_vale form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.card_vale form label{
+    background-color: #ff8fab;
+    color: #f72585;
+    font-weight: bold;
+    border-radius: 3px;
+    border: none;
+}
+
+.card_vale form input{
+    background-color: #ffb3c6;
+    color: #fb6f92;
+    border-radius: 3px;
+    border: none;
+    padding: 10px;
+}
+.card_vale form input::placeholder{
+    color: #d90429;
+
+}
+
+
+.quadrado{
+
+    margin: 0 auto;
+    width: 50%;
+    margin-top: 50px;
+}
+
+
+
+.table-listar thead td{
+font-weight: bold;
+}
+
+
+.table-listar tr td{
+border-collapse: collapse;
+text-align: center;
+}
+
+.table-listar tr td{
+
+    padding: 6px 0;
+
+}
+
+
+
+
+.btn_excluir{
+    padding: 5px;
+    background-color: #bc4749;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    /* margin: 3px 3px 3px 0; */
+    width: 50px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    margin: 5px;
+}
+
+.btn_excluir:hover{
+opacity: 0.5;
+transition: all 0.3s ease-in-out;
+
+}
+
+.btn_editar{
+    padding: 5px;
+    background-color: #81b29a;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    /* margin: 3px 3px 3px 0; */
+    width: 50px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    margin: 5px;
+}
+
+.btn_editar:hover{
+    opacity: 0.5;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn_cad{
+    padding: 10px;
+    /* background-color: #fb6f92; */
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 15px;
+    outline: none;
+    border: 1px solid #fb6f92; 
+   
+
+    
+
+}
+.btn_cad:hover{
+    transition: all 0.5s ease-in-out;
+    background-color: #fb6f92; 
+    
+}
+
+
+
+h1{
+    color: #ff006e;
+    align-items: center;
+}
+h2{
+    color: #ff006e;
+    align-items: center;
+}
+
+
